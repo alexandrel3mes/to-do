@@ -162,7 +162,7 @@ downBtn.addEventListener('click', moveBaixo)
 
 function moveBaixo () {
     let selTask = document.querySelector('.selected')
-    if (selTask != document.getElementsByClassName('task-item')[document.querySelectorAll('.selected').length - 1] && document.querySelectorAll('.selected').length > 0) {
+    if (selTask != document.getElementsByClassName('task-item')[(document.querySelectorAll('.selected').length) - 1] && document.querySelectorAll('.selected').length > 0) {
     list.insertBefore(selTask.nextSibling, selTask)
 }
 }
