@@ -1,0 +1,86 @@
+.selected {
+    background-color: rgb(128, 128, 128);
+}
+
+.completed {
+    text-decoration: line-through solid rgb(0, 0, 0);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2c57c;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    color: beige;
+    font-weight: bold;
+    
+}
+
+button:hover {
+    box-shadow: 9px 0px 18px -3px rgba(0,0,0,0.09);
+    text-shadow: 1px 1px 2px black;
+    transition: 0.3s;
+
+}
+
+#all {
+    background-color: rgb(138, 93, 93);
+    color: seashell;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.22);
+    line-height: 20px;
+}
+
+#texto-tarefa {
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#criar-tarefa {
+    background-color: #316DA8;
+}
+
+#salvar-tarefas {
+    background-color: #316DA8;
+}
+
+#remover-selecionado {
+    background-color: #A81E20;
+}
+
+.setas {
+    background-color: #F5DD5F;
+}
+
+#apaga-tudo {
+    background-color: #A81E20;
+}
+
+#remover-finalizados {
+    background-color: #A81E20;
+}
+
+li {
+    color: white;
+    border-radius: 5px;
+    line-height: 20px;
+    
+}
+
+li:hover {
+    background-color: rgb(70, 70, 70);
+    transition: 0.3s;
+}
+
+input:hover {
+    border: 1px groove #BFBFBF;
+    transition: 0.3s;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <title>To-do 📌</title>
+</head>
+<body>
+    <div id="all">
+    <header>
+        <h1>Minha Lista de Tarefas 📌</h1>
+    </header>
+    <p id="funcionamento"><em>Clique duas vezes em um item para marcá-lo como completo</em></p>
+    <input type="text" id="texto-tarefa">
+    <button id="criar-tarefa">Adicionar</button>
+
+    <ol id="lista-tarefas"></ol>
+
+    <button id="remover-selecionado">❌</button>
+    <button id="mover-cima" class="setas">⬆️</button>
+    <button id="mover-baixo" class="setas">⬇️</button>
+    <button id="apaga-tudo">Limpar Lista</button>
+    <button id="remover-finalizados">Limpar Completos</button>
+    <button id="salvar-tarefas">Salvar Lista</button>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
